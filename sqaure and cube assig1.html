@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Square and cube of a number </title>
+
+	<style>
+		
+		table,tr, td
+{
+border:solid rgb(240, 69, 39);
+width: 35%;
+text-align: center;
+border-collapse: collapse;
+background-color: rgb(164, 221, 243);
+}
+
+table { 
+	margin: auto;
+	width: 100%;
+ }
+
+</style>
+
+<h2 style="text-align: center;">Square and cube of a number from 1000 to 2000</h2>
+
+
+<script>
+
+	document.write( "<table><tr><thcolspan='3'> </th></tr>" );
+
+	document.write( "<tr><td><b>Number List</b></td><td><b>Square</b></td><td><b>Cube</b></td></tr>" );
+
+	for(var n=1000; n<=2000; n++)
+{
+document.write( "<tr><td>" + n + "</td><td>" + n*n + "</td><td>" + n*n*n
++ "</td></tr>" ) ;
+
+}
+
+document.write( "</table>" ) ;
+
+
+</script>
+</head>
+</html>
